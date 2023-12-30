@@ -452,7 +452,8 @@ pre {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+ }
   @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -3852,7 +3853,8 @@ input[type="button"].btn-block {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1.25rem; }
+  padding: 1.25rem; 
+border-radius: 15px;}
 
 .card-img {
   width: 100%;
@@ -8188,7 +8190,8 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .container {
     width: 1110px;
     margin: 0 auto;
-    padding: 0; }
+    padding: 0; 
+  }
   .ftco-navbar-light .navbar-brand {
     color: #fff;
     padding-top: .7rem;
@@ -8395,6 +8398,7 @@ h1, h2, h3, h4, h5,
   z-index: 1;
   color: rgba(0, 0, 0, 0.3); 
   overflow-y: scroll;
+  
 
 }
   
@@ -8405,7 +8409,8 @@ h1, h2, h3, h4, h5,
 
 .owl-carousel {
   position: relative; 
-  overflow-y: scroll;}
+  overflow-y: scroll;
+}
   .owl-carousel .owl-item {
     opacity: .4; }
     .owl-carousel .owl-item.active {
@@ -8443,14 +8448,16 @@ h1, h2, h3, h4, h5,
     position: relative;
     height: 750px;
     z-index: 0;
-    overflow-y: scroll; }
+    overflow-y: scroll; 
+    }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
       height: 750px;
       position: relative;
-      z-index: 0; }
+      z-index: 0; 
+    }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
@@ -8476,7 +8483,8 @@ h1, h2, h3, h4, h5,
           width: 60%;
           position: relative;
           z-index: -1;
-          border-radius: 15px;margin-bottom: 15px; }
+          border-radius: 15px;margin-bottom: 15px; 
+         }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
             position: absolute;
             top: 0;
@@ -8484,7 +8492,8 @@ h1, h2, h3, h4, h5,
             left: 0;
             right: 0;
             background: #000000;
-            opacity: 0; }
+            opacity: 0;
+            }
           @media (max-width: 1199.98px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
               width: 85%; } }
