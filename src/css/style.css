@@ -166,7 +166,8 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none;
+ }
 
 svg {
   overflow: hidden;
@@ -8474,7 +8475,8 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
           width: 60%;
           position: relative;
-          z-index: -1; }
+          z-index: -1;
+          border-radius: 15px;margin-bottom: 15px; }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
             position: absolute;
             top: 0;
@@ -8798,7 +8800,8 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     position: relative;
-    z-index: 1; }
+    z-index: 1; 
+  }
 
 .ftco-about ul.about-info {
   display: inline-block;
@@ -9298,7 +9301,8 @@ textarea.form-control {
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center; 
+  border-radius: 15px;margin-bottom: 15px;}
 
 .image-popup {
   cursor: -webkit-zoom-in;
